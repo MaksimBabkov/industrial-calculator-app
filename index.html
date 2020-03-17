@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Babkov Maksim"/>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="http://babkovmw.com/favicon.ico" type="image/x-icon">
+    <title>Packing - 2020г</title>
+</head>
+<body>
+    
+    <div id="printableArea">
+
+    <div class="kontainer">
+     
+      <div class="flexRou">
+
+<div class="kontainer1">
+<h1>Мешки по 50кг</h1>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">.......Загрузка</h2>
+<input id="a1" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+<h2 class="element">...........Запас</h2>
+П<input id="a2" type="number" value="0" class="element">
+    М<input id="a3" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">........Затарка</h2>
+<input id="a4" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">Остаток п/м</h2>
+<input id="a5" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">..Приход п/м</h2>
+<input id="a6" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">......Брак п/м</h2>
+<input id="a7" type="number" value="0" class="element">
+</div>
+
+<div class="kontainer-flex">
+    <h2 class="element">Остаток п/п</h2>
+<input id="a8" type="number" value="0" class="element">
+</div>
+
+<div class="kontainer-flex">
+    <h2 class="element">..Приход п/п</h2>
+<input id="a9" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">......Брак п/п</h2>
+<input id="a10" type="number" value="0" class="element">
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">...Переборка</h2>
+<input id="a11" type="number" value="0" class="element">
+</div>
+<button type="button" onclick="myFunction()" class="button">Рассчитать по 50кг</button>
+</div>
+
+
+<div class="kontainer1">
+    <h1>Мешки по 25кг</h1>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">.......Загрузка</h2>
+    <input id="w1" type="number" value="0" class="element">
+    </div>
+    
+    
+    <div class="kontainer-flex">
+    <h2 class="element">...........Запас</h2>
+    П<input id="w2" type="number" value="0" class="element">
+        М<input id="w3" type="number" value="0" class="element">
+    </div>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">........Затарка</h2>
+    <input id="w4" type="number" value="0" class="element">
+    </div>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">Остаток п/м</h2>
+    <input id="w5" type="number" value="0" class="element">
+    </div>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">..Приход п/м</h2>
+    <input id="w6" type="number" value="0" class="element">
+    </div>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">......Брак п/м</h2>
+    <input id="w7" type="number" value="0" class="element">
+    </div>
+    
+    <div class="turt">
+    <div class="kontainer-flex">
+        <h2 class="element">Остаток п/п</h2>
+    <input id="w8" type="number" value="0" class="element">
+    </div>
+
+ 
+ <div class="kontainer-flex">
+        <h2 class="element">..Приход п/п</h2>
+    <input id="w9" type="number" value="0" class="element">
+    </div>
+
+
+
+
+    <div class="kontainer-flex">
+        <h2 class="element">......Брак п/п</h2>
+    <input id="w10" type="number" value="0" class="element">
+    </div>
+</div>
+    
+    <div class="kontainer-flex">
+        <h2 class="element">...Переборка</h2>
+        <input id="w11" type="number" value="0" class="element">
+    </div>
+
+    <button type="button" onclick="malMechki()" class="button">Рассчитать по 25кг</button>
+
+    </div>
+</div>
+
+<div class="flexRou">
+
+<div class="kontainer2">
+
+
+
+
+<div class="kontainer-flex">
+    <h2 class="element">.............Затарка</h2>
+    П<h2 id="b1" class="element">текст</h2>
+    М<h2 id="b2">текст</h2>
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">...........Загрузка</h2>
+    П<h2 id="b3" class="element">текст</h2>
+    Т<h2 id="b4">текст</h2>
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">.................Запас</h2>
+    П<h2 id="b5" class="element">текст</h2>
+    М<h2 id="b6" class="element">текст</h2>
+</div>
+
+<hr>
+
+<div class="kontainer-flex">
+    <h2 class="element">......Остаток П/П</h2>
+    <h2 id="b7" class="element">текст</h2>
+</div>
+
+
+<div class="kontainer-flex">
+    <h2 class="element">............Брак П/П</h2>
+    <h2 id="b8" class="element">текст</h2>
+</div>
+
+<div class="kontainer-flex">
+    <h2 class="element">...........Брак П/М</h2>
+    <h2 id="b9" class="element">текст</h2>
+</div>
+
+<div class="kontainer-flex">
+    <h2 class="element">.....Остаток П/М</h2>
+    <h2 id="b10" class="element">текст</h2>
+</div>
+
+
+
+<div class="kontainer-flex">
+    <h2 class="element">..........Переборка</h2>
+    <h2 id="b11" class="element">текст</h2>
+</div>
+</div>
+
+<div class="kontainer2">
+
+   
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">.............Затарка</h2>
+        П<h2 id="q1" class="element">текст</h2>
+        М<h2 id="q2">текст</h2>
+    </div>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">...........Загрузка</h2>
+        П<h2 id="q3" class="element">текст</h2>
+        Т<h2 id="q4">текст</h2>
+    </div>
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">.................Запас</h2>
+        П<h2 id="q5" class="element">текст</h2>
+        М<h2 id="q6" class="element">текст</h2>
+    </div>
+    <hr>
+    <div class="turt">
+    <div class="kontainer-flex">
+        <h2 class="element">......Остаток П/П</h2>
+        <h2 id="q7" class="element">текст</h2>
+    </div>
+
+    
+
+
+    <div class="kontainer-flex">
+        <h2 class="element">............Брак П/П</h2>
+        <h2 id="q8" class="element">текст</h2>
+    </div>
+</div>
+
+
+    <div class="kontainer-flex">
+        <h2 class="element">...........Брак П/М</h2>
+        <h2 id="q9" class="element">текст</h2>
+    </div>
+    
+    <div class="kontainer-flex">
+        <h2 class="element">.....Остаток П/М</h2>
+        <h2 id="q10" class="element">текст</h2>
+    </div>
+    
+    
+    
+    <div class="kontainer-flex">
+        <h2 class="element">..........Переборка</h2>
+        <h2 id="q11" class="element">текст</h2>
+    </div>
+    </div>
+    </div>
+
+</div>
+</div>
+
+
+
+  <div class="wstawka">
+<div class="f6">
+<input type="button" onclick="dda()" value="Запомнить" class="f4">
+<input type="button" onclick="dde()" value="Вставить" class="f4">
+<input type="button" onclick="printDiv('printableArea')" value="Печать" class="f4">
+</div>
+</div>
+
+<script src="/main.js"></script>
+</body>
+</html>
